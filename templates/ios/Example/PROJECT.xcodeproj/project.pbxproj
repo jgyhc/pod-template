@@ -21,6 +21,25 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
+		7E527B22248B7DEC00706E44 /* MJElasticsearchService.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E527AFF248B7DEC00706E44 /* MJElasticsearchService.m */; };
+		7E527B23248B7DEC00706E44 /* Target_CTAppContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E527B00248B7DEC00706E44 /* Target_CTAppContext.m */; };
+		7E527B24248B7DEC00706E44 /* Target_ActivityService.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E527B01248B7DEC00706E44 /* Target_ActivityService.m */; };
+		7E527B25248B7DEC00706E44 /* Target_MJLuxuryActivitiesService.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E527B02248B7DEC00706E44 /* Target_MJLuxuryActivitiesService.m */; };
+		7E527B26248B7DEC00706E44 /* MJGlobalActivitiesService.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E527B03248B7DEC00706E44 /* MJGlobalActivitiesService.m */; };
+		7E527B27248B7DEC00706E44 /* ActivityService.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E527B06248B7DEC00706E44 /* ActivityService.m */; };
+		7E527B28248B7DEC00706E44 /* MJRSAEncryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E527B09248B7DEC00706E44 /* MJRSAEncryptor.m */; };
+		7E527B29248B7DEC00706E44 /* Target_userRegisteredConfiger.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E527B0E248B7DEC00706E44 /* Target_userRegisteredConfiger.m */; };
+		7E527B2A248B7DEC00706E44 /* Target_SearchService.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E527B0F248B7DEC00706E44 /* Target_SearchService.m */; };
+		7E527B2B248B7DEC00706E44 /* Target_apiHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E527B14248B7DEC00706E44 /* Target_apiHelp.m */; };
+		7E527B2C248B7DEC00706E44 /* SearchService.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E527B16248B7DEC00706E44 /* SearchService.m */; };
+		7E527B2D248B7DEC00706E44 /* MJLuxuryActivitiesService.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E527B18248B7DEC00706E44 /* MJLuxuryActivitiesService.m */; };
+		7E527B2E248B7DEC00706E44 /* Target_MJGlobalActivitiesService.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E527B19248B7DEC00706E44 /* Target_MJGlobalActivitiesService.m */; };
+		7E527B2F248B7DEC00706E44 /* CustomerService.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E527B1B248B7DEC00706E44 /* CustomerService.m */; };
+		7E527B30248B7DEC00706E44 /* Target_networkconfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E527B1C248B7DEC00706E44 /* Target_networkconfiguration.m */; };
+		7E527B31248B7DEC00706E44 /* Target_MJElasticsearchService.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E527B20248B7DEC00706E44 /* Target_MJElasticsearchService.m */; };
+		7E527B32248B7DEC00706E44 /* Target_CustomerService.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E527B21248B7DEC00706E44 /* Target_CustomerService.m */; };
+		7E527B36248B7DFD00706E44 /* PrintBeautifulLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E527B35248B7DFC00706E44 /* PrintBeautifulLog.m */; };
+		7E527B39248B7E2700706E44 /* UIViewController+MJTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E527B38248B7E2700706E44 /* UIViewController+MJTheme.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -30,7 +49,7 @@
 			containerPortal = 6003F582195388D10070C39A /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 6003F589195388D20070C39A;
-			remoteInfo = "PROJECT";
+			remoteInfo = PROJECT;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -55,6 +74,44 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7E527AFF248B7DEC00706E44 /* MJElasticsearchService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJElasticsearchService.m; sourceTree = "<group>"; };
+		7E527B00248B7DEC00706E44 /* Target_CTAppContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_CTAppContext.m; sourceTree = "<group>"; };
+		7E527B01248B7DEC00706E44 /* Target_ActivityService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_ActivityService.m; sourceTree = "<group>"; };
+		7E527B02248B7DEC00706E44 /* Target_MJLuxuryActivitiesService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_MJLuxuryActivitiesService.m; sourceTree = "<group>"; };
+		7E527B03248B7DEC00706E44 /* MJGlobalActivitiesService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJGlobalActivitiesService.m; sourceTree = "<group>"; };
+		7E527B04248B7DEC00706E44 /* SearchService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchService.h; sourceTree = "<group>"; };
+		7E527B05248B7DEC00706E44 /* Target_apiHelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_apiHelp.h; sourceTree = "<group>"; };
+		7E527B06248B7DEC00706E44 /* ActivityService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityService.m; sourceTree = "<group>"; };
+		7E527B07248B7DEC00706E44 /* Target_networkconfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_networkconfiguration.h; sourceTree = "<group>"; };
+		7E527B08248B7DEC00706E44 /* CustomerService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomerService.h; sourceTree = "<group>"; };
+		7E527B09248B7DEC00706E44 /* MJRSAEncryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRSAEncryptor.m; sourceTree = "<group>"; };
+		7E527B0A248B7DEC00706E44 /* Target_MJGlobalActivitiesService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_MJGlobalActivitiesService.h; sourceTree = "<group>"; };
+		7E527B0B248B7DEC00706E44 /* MJLuxuryActivitiesService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJLuxuryActivitiesService.h; sourceTree = "<group>"; };
+		7E527B0C248B7DEC00706E44 /* Target_CustomerService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_CustomerService.h; sourceTree = "<group>"; };
+		7E527B0D248B7DEC00706E44 /* Target_MJElasticsearchService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_MJElasticsearchService.h; sourceTree = "<group>"; };
+		7E527B0E248B7DEC00706E44 /* Target_userRegisteredConfiger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_userRegisteredConfiger.m; sourceTree = "<group>"; };
+		7E527B0F248B7DEC00706E44 /* Target_SearchService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_SearchService.m; sourceTree = "<group>"; };
+		7E527B10248B7DEC00706E44 /* Target_ActivityService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_ActivityService.h; sourceTree = "<group>"; };
+		7E527B11248B7DEC00706E44 /* Target_CTAppContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_CTAppContext.h; sourceTree = "<group>"; };
+		7E527B12248B7DEC00706E44 /* MJElasticsearchService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJElasticsearchService.h; sourceTree = "<group>"; };
+		7E527B13248B7DEC00706E44 /* ActivityService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityService.h; sourceTree = "<group>"; };
+		7E527B14248B7DEC00706E44 /* Target_apiHelp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_apiHelp.m; sourceTree = "<group>"; };
+		7E527B15248B7DEC00706E44 /* MJGlobalActivitiesService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJGlobalActivitiesService.h; sourceTree = "<group>"; };
+		7E527B16248B7DEC00706E44 /* SearchService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchService.m; sourceTree = "<group>"; };
+		7E527B17248B7DEC00706E44 /* Target_MJLuxuryActivitiesService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_MJLuxuryActivitiesService.h; sourceTree = "<group>"; };
+		7E527B18248B7DEC00706E44 /* MJLuxuryActivitiesService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJLuxuryActivitiesService.m; sourceTree = "<group>"; };
+		7E527B19248B7DEC00706E44 /* Target_MJGlobalActivitiesService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_MJGlobalActivitiesService.m; sourceTree = "<group>"; };
+		7E527B1A248B7DEC00706E44 /* MJRSAEncryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRSAEncryptor.h; sourceTree = "<group>"; };
+		7E527B1B248B7DEC00706E44 /* CustomerService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomerService.m; sourceTree = "<group>"; };
+		7E527B1C248B7DEC00706E44 /* Target_networkconfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_networkconfiguration.m; sourceTree = "<group>"; };
+		7E527B1E248B7DEC00706E44 /* Target_SearchService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_SearchService.h; sourceTree = "<group>"; };
+		7E527B1F248B7DEC00706E44 /* Target_userRegisteredConfiger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_userRegisteredConfiger.h; sourceTree = "<group>"; };
+		7E527B20248B7DEC00706E44 /* Target_MJElasticsearchService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_MJElasticsearchService.m; sourceTree = "<group>"; };
+		7E527B21248B7DEC00706E44 /* Target_CustomerService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_CustomerService.m; sourceTree = "<group>"; };
+		7E527B34248B7DFC00706E44 /* PrintBeautifulLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrintBeautifulLog.h; sourceTree = "<group>"; };
+		7E527B35248B7DFC00706E44 /* PrintBeautifulLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrintBeautifulLog.m; sourceTree = "<group>"; };
+		7E527B37248B7E2700706E44 /* UIViewController+MJTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MJTheme.h"; sourceTree = "<group>"; };
+		7E527B38248B7E2700706E44 /* UIViewController+MJTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MJTheme.m"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -116,6 +173,10 @@
 		6003F593195388D20070C39A /* Example for PROJECT */ = {
 			isa = PBXGroup;
 			children = (
+				7E527B37248B7E2700706E44 /* UIViewController+MJTheme.h */,
+				7E527B38248B7E2700706E44 /* UIViewController+MJTheme.m */,
+				7E527B33248B7DFC00706E44 /* CNLog */,
+				7E527AFE248B7DEC00706E44 /* NetWorkingConfig */,
 				6003F59C195388D20070C39A /* CPDAppDelegate.h */,
 				6003F59D195388D20070C39A /* CPDAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -126,7 +187,7 @@
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
 			name = "Example for PROJECT";
-			path = "PROJECT";
+			path = PROJECT;
 			sourceTree = "<group>";
 		};
 		6003F594195388D20070C39A /* Supporting Files */ = {
@@ -166,6 +227,64 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		7E527AFE248B7DEC00706E44 /* NetWorkingConfig */ = {
+			isa = PBXGroup;
+			children = (
+				7E527B13248B7DEC00706E44 /* ActivityService.h */,
+				7E527B06248B7DEC00706E44 /* ActivityService.m */,
+				7E527B08248B7DEC00706E44 /* CustomerService.h */,
+				7E527B1B248B7DEC00706E44 /* CustomerService.m */,
+				7E527B12248B7DEC00706E44 /* MJElasticsearchService.h */,
+				7E527AFF248B7DEC00706E44 /* MJElasticsearchService.m */,
+				7E527B15248B7DEC00706E44 /* MJGlobalActivitiesService.h */,
+				7E527B03248B7DEC00706E44 /* MJGlobalActivitiesService.m */,
+				7E527B0B248B7DEC00706E44 /* MJLuxuryActivitiesService.h */,
+				7E527B18248B7DEC00706E44 /* MJLuxuryActivitiesService.m */,
+				7E527B1A248B7DEC00706E44 /* MJRSAEncryptor.h */,
+				7E527B09248B7DEC00706E44 /* MJRSAEncryptor.m */,
+				7E527B04248B7DEC00706E44 /* SearchService.h */,
+				7E527B16248B7DEC00706E44 /* SearchService.m */,
+				7E527B1D248B7DEC00706E44 /* Service */,
+				7E527B10248B7DEC00706E44 /* Target_ActivityService.h */,
+				7E527B01248B7DEC00706E44 /* Target_ActivityService.m */,
+				7E527B05248B7DEC00706E44 /* Target_apiHelp.h */,
+				7E527B14248B7DEC00706E44 /* Target_apiHelp.m */,
+				7E527B11248B7DEC00706E44 /* Target_CTAppContext.h */,
+				7E527B00248B7DEC00706E44 /* Target_CTAppContext.m */,
+				7E527B0C248B7DEC00706E44 /* Target_CustomerService.h */,
+				7E527B21248B7DEC00706E44 /* Target_CustomerService.m */,
+				7E527B0D248B7DEC00706E44 /* Target_MJElasticsearchService.h */,
+				7E527B20248B7DEC00706E44 /* Target_MJElasticsearchService.m */,
+				7E527B0A248B7DEC00706E44 /* Target_MJGlobalActivitiesService.h */,
+				7E527B19248B7DEC00706E44 /* Target_MJGlobalActivitiesService.m */,
+				7E527B17248B7DEC00706E44 /* Target_MJLuxuryActivitiesService.h */,
+				7E527B02248B7DEC00706E44 /* Target_MJLuxuryActivitiesService.m */,
+				7E527B07248B7DEC00706E44 /* Target_networkconfiguration.h */,
+				7E527B1C248B7DEC00706E44 /* Target_networkconfiguration.m */,
+				7E527B1E248B7DEC00706E44 /* Target_SearchService.h */,
+				7E527B0F248B7DEC00706E44 /* Target_SearchService.m */,
+				7E527B1F248B7DEC00706E44 /* Target_userRegisteredConfiger.h */,
+				7E527B0E248B7DEC00706E44 /* Target_userRegisteredConfiger.m */,
+			);
+			path = NetWorkingConfig;
+			sourceTree = "<group>";
+		};
+		7E527B1D248B7DEC00706E44 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		7E527B33248B7DFC00706E44 /* CNLog */ = {
+			isa = PBXGroup;
+			children = (
+				7E527B34248B7DFC00706E44 /* PrintBeautifulLog.h */,
+				7E527B35248B7DFC00706E44 /* PrintBeautifulLog.m */,
+			);
+			path = CNLog;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -181,8 +300,8 @@
 			);
 			dependencies = (
 			);
-			name = "PROJECT_Example";
-			productName = "PROJECT";
+			name = PROJECT_Example;
+			productName = PROJECT;
 			productReference = 6003F58A195388D20070C39A /* PROJECT_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -199,8 +318,8 @@
 			dependencies = (
 				6003F5B4195388D20070C39A /* PBXTargetDependency */,
 			);
-			name = "PROJECT_Tests";
-			productName = "PROJECTTests";
+			name = PROJECT_Tests;
+			productName = PROJECTTests;
 			productReference = 6003F5AE195388D20070C39A /* PROJECT_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
@@ -212,7 +331,7 @@
 			attributes = {
 				CLASSPREFIX = CPD;
 				LastUpgradeCheck = 0720;
-				ORGANIZATIONNAME = "PROJECT_OWNER";
+				ORGANIZATIONNAME = PROJECT_OWNER;
 				TargetAttributes = {
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
@@ -224,6 +343,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -265,9 +385,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E527B31248B7DEC00706E44 /* Target_MJElasticsearchService.m in Sources */,
 				6003F59E195388D20070C39A /* CPDAppDelegate.m in Sources */,
+				7E527B24248B7DEC00706E44 /* Target_ActivityService.m in Sources */,
+				7E527B30248B7DEC00706E44 /* Target_networkconfiguration.m in Sources */,
+				7E527B32248B7DEC00706E44 /* Target_CustomerService.m in Sources */,
+				7E527B23248B7DEC00706E44 /* Target_CTAppContext.m in Sources */,
 				6003F5A7195388D20070C39A /* CPDViewController.m in Sources */,
+				7E527B26248B7DEC00706E44 /* MJGlobalActivitiesService.m in Sources */,
+				7E527B2E248B7DEC00706E44 /* Target_MJGlobalActivitiesService.m in Sources */,
+				7E527B36248B7DFD00706E44 /* PrintBeautifulLog.m in Sources */,
+				7E527B25248B7DEC00706E44 /* Target_MJLuxuryActivitiesService.m in Sources */,
+				7E527B2A248B7DEC00706E44 /* Target_SearchService.m in Sources */,
+				7E527B28248B7DEC00706E44 /* MJRSAEncryptor.m in Sources */,
+				7E527B2D248B7DEC00706E44 /* MJLuxuryActivitiesService.m in Sources */,
+				7E527B22248B7DEC00706E44 /* MJElasticsearchService.m in Sources */,
+				7E527B39248B7E2700706E44 /* UIViewController+MJTheme.m in Sources */,
+				7E527B29248B7DEC00706E44 /* Target_userRegisteredConfiger.m in Sources */,
+				7E527B2F248B7DEC00706E44 /* CustomerService.m in Sources */,
+				7E527B27248B7DEC00706E44 /* ActivityService.m in Sources */,
+				7E527B2B248B7DEC00706E44 /* Target_apiHelp.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				7E527B2C248B7DEC00706E44 /* SearchService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
