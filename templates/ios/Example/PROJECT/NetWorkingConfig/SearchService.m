@@ -9,7 +9,7 @@
 #import "SearchService.h"
 //#import "InterfaceConfiguration.h"
 //#import "Hardwaremodel.h"
-#import "MJUserInstance.h"
+//#import "MJUserInstance.h"
 
 
 @implementation SearchService
@@ -26,7 +26,7 @@
 
 ////为某些Service需要拼凑额外的HTTPToken，如accessToken
 - (NSDictionary *)extraHttpHeadParmas {
-    NSString *sessionid = MJUserInstance.sharedInstance.sessionId;
+    NSString *sessionid = @"";
     NSString *uuid = [[[UIDevice currentDevice] identifierForVendor] UUIDString];
     NSMutableDictionary *httpHeadParmas = [NSMutableDictionary dictionary];
     [httpHeadParmas addEntriesFromDictionary:@{
